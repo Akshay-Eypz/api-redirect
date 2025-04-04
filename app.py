@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-KOYEB_BASE = "https://alright-faina-eypz-god-0512c786.koyeb.app/"
+KOYEB_BASE = "https://prime-kissee-amv-stream-0e7b4e5b.koyeb.app/"
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
